@@ -31,7 +31,7 @@ public class Dealer
             int nextNum = player.GetNewNum();
             Console.WriteLine($"Next card is: {nextNum}");
 
-            score = player.Getscore(curNum, nextNum, guess); 
+            score = player.GetScore(curNum, nextNum, guess); 
             Console.WriteLine($"Your score is: {score}");
             
             if (score > 0)

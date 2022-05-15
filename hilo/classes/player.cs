@@ -15,7 +15,7 @@ public class Player
         return number;
     }
 
-    public int Getscore(int number, int nextNum, string guess)
+    public int GetScore(int number, int nextNum, string guess)
     {
         if ((guess.ToLower() == "l" && nextNum < number) || (guess.ToLower() == "h" && nextNum > number))
         {
