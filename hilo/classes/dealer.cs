@@ -8,10 +8,15 @@ public class Dealer
         Player player = new Player();
         int score = player.ShowScore();
         string keepPlay = "y";
+        List<int> deck = new List<int>();
+
+        Card card = new Card();
+        int nextNum = card.GetNewCard();
 
         while (keepPlay != "n")
         {
-            int curNum = player.GetNewNum();
+            deck = card.DealwNextCard(nextNum);
+            int curNum = deck[0];
             Console.WriteLine($"The card is: {curNum}");
             string guess = "";
             while (true)
@@ -28,7 +33,7 @@ public class Dealer
                 }
             }
 
-            int nextNum = player.GetNewNum();
+            nextNum = deck[1];
             Console.WriteLine($"Next card is: {nextNum}");
 
             score = player.GetScore(curNum, nextNum, guess); 

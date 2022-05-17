@@ -8,12 +8,12 @@ public class Player
 
     }
 
-    public int GetNewNum()
-    {
-        Card card = new Card();
-        int number = card.GetNewCard();
-        return number;
-    }
+    // public int GetNewNum()
+    // {
+    //     Card card = new Card();
+    //     int number = card.GetNewCard();
+    //     return number;
+    // }
 
     public int GetScore(int number, int nextNum, string guess)
     {
