@@ -1,16 +1,25 @@
 // Choose a random word from a list, seperate it into letters
 public class Words
 {
-    private string theWord;
+    private string theWord = "";
+    private char[] wordSplit = {};
     
     private string RandomWord()
     {
         Random GetRandom = new Random();
-        int ranIndex = GetRandom.Next(0,3);
+        int ranIndex = GetRandom.Next(0,41);
         
         string[] words = new[]
         {
-            "hello", "apple", "string"
+            "hello", "apple", "abuse", "admit", "alive",
+            "among", "apart", "avoid", "aside", "again",
+            "basic", "beach", "billy", "birth", "blind",
+            "brain", "break", "build", "broke", "blood",
+            "close", "could", "coach", "clock", "crash",
+            "death", "dozen", "drive", "dream", "dying",
+            "earth", "enemy", "enjoy", "enter", "error",
+            "frank", "fruit", "found", "forth", "focus"
+
         };
 
         theWord = words[ranIndex];
@@ -18,25 +27,49 @@ public class Words
         return theWord;
     }
 
-    public void PrintWord()
+    public string PrintWord()
     {
-        Console.WriteLine(theWord);
+        return theWord;
     }
 
-    public Array Letters()
+    public void Letters()
     {
         string word = RandomWord();
-        char[] textSplit = word.ToCharArray();
-
-        return textSplit;
+        wordSplit = word.ToCharArray();
     }
 
     public void PrintLetter()
     {
-        Array textSplit = Letters();
-        foreach (char letter in textSplit)
+        foreach (char letter in wordSplit)
         {
             Console.WriteLine($"substring: {letter}");
         }
+
+        // Console.WriteLine(textSplit[2]);
+        // Console.WriteLine(textSplit[4]);
+        
+    }
+
+    public List<int> GetIndex(char aLetter)
+    {
+        List<int> indexs = new List<int>();
+        int index = 0;
+        if (Array.IndexOf(wordSplit, aLetter) > -1)
+        {
+            foreach (char letter in wordSplit)
+            {
+                if (letter == aLetter)
+                {
+                    indexs.Add(index);
+                }
+                index += 1;
+            }
+        }
+        else
+        {
+            indexs.Add(-1);
+        }
+        // Console.WriteLine(String.Join(" ", indexs));
+        return indexs;
     }
 }
