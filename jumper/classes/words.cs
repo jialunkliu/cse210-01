@@ -18,7 +18,7 @@ public class Words
             "close", "could", "coach", "clock", "crash",
             "death", "dozen", "drive", "dream", "dying",
             "earth", "enemy", "enjoy", "enter", "error",
-            "frank", "fruit", "found", "forth", "focus"
+            "frank", "fruit", "found", "forth", "focus",
 
         };
 

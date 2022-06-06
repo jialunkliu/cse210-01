@@ -16,7 +16,7 @@ public class Dealer
     public void GameStart()
     {
         newWord.Letters();
-        // newWord.PrintLetter();
+        // newWord.PrintWord();
         Console.WriteLine(String.Join(" ", UserInputs));
         player.UpdateLife();
         while (keeplay == 1)
