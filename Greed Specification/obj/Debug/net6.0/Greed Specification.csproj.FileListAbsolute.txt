@@ -1,0 +1,21 @@
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Greed Specification.exe
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Greed Specification.deps.json
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Greed Specification.runtimeconfig.json
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Greed Specification.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Greed Specification.pdb
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.csproj.AssemblyReference.cache
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.AssemblyInfoInputs.cache
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.AssemblyInfo.cs
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.csproj.CoreCompileInputs.cache
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.csproj.CopyComplete
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\refint\Greed Specification.dll
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.pdb
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\Greed Specification.genruntimeconfig.cache
+C:\Users\jialu\Documents\School\2022\Spring 2022\cse210\cse210-01\Greed Specification\obj\Debug\net6.0\ref\Greed Specification.dll
